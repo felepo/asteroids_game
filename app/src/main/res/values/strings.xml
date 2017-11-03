@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Asteroids</string>
+    <string name="app_name">Asteroides</string>
 
     <string name="rInicio">¡Empezar!</string>
     <string name="rConfig">Configuraciones</string>
