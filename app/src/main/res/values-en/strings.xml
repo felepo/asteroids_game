@@ -6,4 +6,9 @@
     <string name="rConfig">Configuration</string>
     <string name="rInfoAdicional">About...</string>
     <string name="rSalir">Exit</string>
+
+    <string name="tituloInfo">App Information</string>
+    <string name="infoProgramador">Developed by Fernando Poncio</string>
+    <string name="infoEmail">Email fecrackle@gmail.com</string>
+    <string name="fecha">November 4, 2017</string>
 </resources>

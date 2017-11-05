@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">Asteroides</string>
 
+    <!-- Info de activity_main -->
     <string name="rInicio">¡Empezar!</string>
     <string name="rConfig">Configuraciones</string>
     <string name="rInfoAdicional">Información</string>
     <string name="rSalir">Salir</string>
+
+    <!-- info de info -->
+    <string name="tituloInfo">Información de la App</string>
+    <string name="infoProgramador">Programado por Fernando Poncio</string>
+    <string name="infoEmail">Correo fecrackle@gmail.com</string>
+    <string name="fecha">4 de noviembre de 2017</string>
+
 </resources>
