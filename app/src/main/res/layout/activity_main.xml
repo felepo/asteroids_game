@@ -4,45 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context="com.felepo.asteroids.MainActivity">
 
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="20dp"
         android:text="@string/app_name"
+        android:textAlignment="center"
         android:textSize="40sp" />
 
-    <Button
-        android:id="@+id/button"
+    <Space
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/rInicio"
-        android:textAllCaps="false" />
+        android:layout_height="56dp" />
 
-    <Button
-        android:id="@+id/button2"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/rConfig"
-        android:textAllCaps="false" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ejecutarInfo"
-        android:text="@string/rInfoAdicional"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rInicio"
+            android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="salirApp"
-        android:text="@string/rSalir"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ejecutarInfo"
+            android:text="@string/rInfoAdicional"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rConfig"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="salirApp"
+            android:text="@string/rSalir"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
 </LinearLayout>
